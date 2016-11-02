@@ -1,0 +1,26 @@
+{
+    "name": "maxeko/yii2-jquery-autocomplete",
+    "description": "Devbridge Ajax Autocomplete Asset and Widget for Yii2",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Maxim Korshunov",
+            "email": "korshunov.m.e@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "url": "https://github.com/maxeko/jQuery-Autocomplete",
+            "type": "git"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "devbridge/jquery-autocomplete": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "maxeko\\devbridge\\": "" }
+    },
+    "license": "MIT",
+}
