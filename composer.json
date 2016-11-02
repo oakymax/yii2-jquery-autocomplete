@@ -17,7 +17,7 @@
     ],
     "require": {
         "yiisoft/yii2": "^2.0",
-        "devbridge/jquery-autocomplete": "*"
+        "devbridge/jquery-autocomplete": "*@dev"
     },
     "autoload": {
         "psr-4": { "maxeko\\devbridge\\": "" }
