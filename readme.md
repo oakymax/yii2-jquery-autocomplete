@@ -70,7 +70,7 @@ For dynamic update serviceUrl (js):
 TypeScript support:
 
 ```
-/// <reference path="../../vendor/devbridge.ойгукн-autocomplete/typings/jquery-autocomplete/jquery.autocomplete.d.ts" />
+/// <reference path="../../vendor/devbridge/jquery-autocomplete/typings/jquery-autocomplete/jquery.autocomplete.d.ts" />
 ```
 
 ## RTFM
