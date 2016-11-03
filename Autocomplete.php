@@ -12,7 +12,7 @@ use yii\base\Widget;
  */
 class Autocomplete extends Widget
 {
-    public $inputSelector = 'input';
+    public $input = 'input';
     public $options = [];
 
     /**
@@ -30,6 +30,6 @@ class Autocomplete extends Widget
         }
 
         $jsOptions = join(',', $jsOptions);
-        $view->registerJs("$({$this->inputSelector}).autocomplete({{$jsOptions}});");
+        $view->registerJs("$('{$this->input}').autocomplete({{$jsOptions}});");
     }
 }
