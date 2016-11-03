@@ -11,7 +11,7 @@ use yii\web\AssetBundle;
  */
 class AutocompleteAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/devbridge/jquery-autocomplete';
+    public $sourcePath = '@vendor/devbridge/jquery-autocomplete/dist';
     public $depends = [
         'yii\web\JqueryAsset'
     ];
